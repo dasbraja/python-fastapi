@@ -10,7 +10,7 @@ Here is swagger link. https://sirendev.westus.cloudapp.azure.com/api/v1/docs
       /common/deviceeventtype       // event type reported in given date range for a given device. 
       
 
-## Georgia Pacific Dispensers
+## Dispensers
       /gp/aggregate/productcard                   // aggregate product metrics per device.
       /gp/aggregate/batterycard                   // aggregate battery metrics per device.
       /gp/aggregate/daily/productalert            // device product alert dailly aggregate.   
@@ -25,7 +25,7 @@ Event detail are captured in below endpoint.
       /gp/productfuelgaugehistory                 //  device products remaining (%) in timeseries.
       /gp/batteryfuelgaugehistory                 //  devicie battery reamining (%) in timeseries.
 
-## Zurn 
+## Valves 
     /zurn/alertstatus                             //  flush/faucet valve alerts in timeseries.
     /zurn/aggregate/daily/activation              //  flush/faucet valve activation daily aggregate.
     /zurn/aggregate/activation                    //  flush/faucet valve activation aggregate per device.
