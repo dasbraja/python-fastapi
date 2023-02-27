@@ -1,0 +1,13 @@
+venv
+*.jar
+tests
+*.pytest_cache
+*.mypy_cache
+.helm
+__pycache__
+azure-pipelines.yml
+scripts
+README.md
+CODEOWNERS
+.coverage
+skaffold

@@ -1,0 +1,13 @@
+image:
+  repository: devsupport.azurecr.io/connected-restroom-api
+  tag: v3
+nrMode: dev
+replicas: 3
+host: sirendev.westus.cloudapp.azure.com
+cert: tls-cert
+nodeSelectorKey: agentpool
+nodeSelectorValue: bdask8sdev
+imagepullsecret: devsupport
+apiPath: "/api/v1"
+useCSI: false
+

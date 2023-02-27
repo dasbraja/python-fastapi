@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: {{ .Release.Name }}
+spec:
+  ports:
+    - port: 8008
+      targetPort: 8008
+      name: http
+  selector:
+    app: {{ .Release.Name }}
